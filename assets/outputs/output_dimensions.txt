@@ -1,0 +1,1 @@
+Height=510, Width=1020, Channels=3
