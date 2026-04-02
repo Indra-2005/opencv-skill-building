@@ -54,6 +54,12 @@ How to procedurally draw vector graphics on top of raster image backgrounds.
 **Output (Drawing Shapes):**
 ![Rectangle Image Execution Result](assets/outputs/output_rectangle.jpg)
 
+### 4. Video Functions
+Scripts demonstrating how to interact with webcams and process video streams.
+
+- **`using_cap.py`**: Captures and displays a live video feed from the default webcam.
+- **`saving_vid.py`**: Reads live webcam frames and saves them to an `.avi` video file using `VideoWriter`.
+
 ---
 
 ## 🤝 Contribution Activity
