@@ -4,7 +4,7 @@ Draw a Line on an Image using OpenCV.
 This script demonstrates how to load an image, draw a straight line 
 between two specified coordinates (pt1, pt2), and display the result.
 
-Author: GitHub Contributor
+
 """
 import cv2
 import os

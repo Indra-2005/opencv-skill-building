@@ -4,7 +4,7 @@ Draw a Rectangle on an Image using OpenCV.
 This script demonstrates how to load an image, draw a rectangle 
 given top-left and bottom-right corners, and display the result.
 
-Author: GitHub Contributor
+
 """
 import cv2
 import os

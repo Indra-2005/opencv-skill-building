@@ -46,8 +46,10 @@ Transforming and moving arrays in space using matrix transformations and affine 
 ### 3. Image Drawing Functions
 How to procedurally draw vector graphics on top of raster image backgrounds.
 
+- **`circle.py`**: Draws circles with specific radius and thickness.
 - **`line.py`**: Draws straight lines between designated (X,Y) coordinates.
 - **`rectangle.py`**: Draws hollow and filled rectangles using bounding boxes.
+- **`text.py`**: Overlays custom text onto images using various font faces.
 
 **Output (Drawing Shapes):**
 ![Rectangle Image Execution Result](assets/outputs/output_rectangle.jpg)
