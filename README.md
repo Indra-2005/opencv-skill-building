@@ -60,6 +60,18 @@ Scripts demonstrating how to interact with webcams and process video streams.
 - **`using_cap.py`**: Captures and displays a live video feed from the default webcam.
 - **`saving_vid.py`**: Reads live webcam frames and saves them to an `.avi` video file using `VideoWriter`.
 
+### 5. Image Filtering & Blurring
+Techniques to reduce noise and enhance image features using convolution and various kernels.
+
+- **`gaussian_blur.py`**: Applies a Gaussian blur filter to smooth an image and reduce high-frequency noise.
+- **`median_blur.py`**: Best approach to remove salt-and-pepper noise by taking the median pixel in the kernel area.
+- **`sharpening.py`**: Enhances edge transitions using a custom matrix convolution kernel (filter2D).
+
+**Outputs:**
+![Gaussian Blur](assets/outputs/output_gaussian_blur.jpg)
+![Median Blur](assets/outputs/output_median_blur.jpg)
+![Sharpening](assets/outputs/output_sharpening.jpg)
+
 ---
 
 ## 🤝 Contribution Activity
