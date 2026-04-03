@@ -72,6 +72,18 @@ Techniques to reduce noise and enhance image features using convolution and vari
 ![Median Blur](assets/outputs/output_median_blur.jpg)
 ![Sharpening](assets/outputs/output_sharpening.jpg)
 
+### 6. Edge Detection & Bitwise Operations
+Scripts related to edge extraction algorithms and binary matrix operations logic.
+
+- **`bitwise.py`**: Demonstrates logic gates (AND, OR, NOT) on multi-channel graphical arrays.
+- **`canny.py`**: Automatically identifies structural outlines using the Canny Edge Detection algorithm.
+- **`threshold.py`**: Binarizes an image (into strict black/white pixels) depending on a given pixel intensity threshold.
+
+**Outputs:**
+![Bitwise OR Output](assets/outputs/output_bitwise_or.jpg)
+![Canny Edges](assets/outputs/output_canny.jpg)
+![Threshold Image](assets/outputs/output_threshold.jpg)
+
 ---
 
 ## 🤝 Contribution Activity
