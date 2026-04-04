@@ -98,5 +98,19 @@ Algorithms to detect object boundaries and classify basic geometric shapes.
 
 ---
 
+### 8. Face & Object Detection
+Scripts showcasing object detection utilizing pre-trained Haar Cascade classifiers.
+
+> **Note on `.xml` models:** The `haarcascade_*.xml` files used in these scripts are official pre-trained models originally created and distributed by the [OpenCV organization](https://github.com/opencv/opencv/tree/master/data/haarcascades). Because they are large compiled data constructs, they are deliberately excluded from version control via `.gitignore`. You should fetch them locally if you intend to run these scripts heavily.
+
+- **`app.py`**: A basic script capturing face bounding boxes from a live webcam feed utilizing `detectMultiScale()`.
+- **`face_eye_smile.py`**: Advanced pipeline to isolate a "Region of Interest" (ROI) around a face to drastically improve detection speed and accuracy for smaller facial features like eyes and smiles.
+
+**Outputs:**
+![Face Detection Overlay](assets/outputs/output_app_face.jpg)
+![Facial Features (Eyes and Smile)](assets/outputs/output_face_eye.jpg)
+
+---
+
 ## 🤝 Contribution Activity
 This repository was set up as an open-source demonstration representing early-stage computer vision experiments. Feel free to copy, modify, and use these snippets!
