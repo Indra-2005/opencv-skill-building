@@ -86,5 +86,17 @@ Scripts related to edge extraction algorithms and binary matrix operations logic
 
 ---
 
+### 7. Contour & Shape Detection
+Algorithms to detect object boundaries and classify basic geometric shapes.
+
+- **`contour_fun.py`**: Demonstrates finding and drawing continuous outlines around binarized objects using `findContours`.
+- **`shape_detection.py`**: Approximates contour complexity to polygons and classifies objects (Triangle, Rectangle, Pentagon, Circle) based on the number of vertices.
+
+**Outputs:**
+![Contours Output](assets/outputs/output_contours.jpg)
+![Shape Detection Output](assets/outputs/output_shapes.jpg)
+
+---
+
 ## 🤝 Contribution Activity
 This repository was set up as an open-source demonstration representing early-stage computer vision experiments. Feel free to copy, modify, and use these snippets!
